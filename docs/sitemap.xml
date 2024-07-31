@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jennybuni.github.io/website/street/</loc>
-  </url><url>
     <loc>https://jennybuni.github.io/website/fashion-beauty/</loc>
   </url><url>
     <loc>https://jennybuni.github.io/website/nature/</loc>
+  </url><url>
+    <loc>https://jennybuni.github.io/website/street/</loc>
   </url><url>
     <loc>https://jennybuni.github.io/website/</loc>
     <lastmod>2023-01-12T00:00:00+00:00</lastmod>
