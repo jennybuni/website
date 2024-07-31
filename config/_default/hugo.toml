@@ -8,6 +8,8 @@ author = "Jennifer"
 canonifyurls = true
 paginate = 6
 
+publishDir = "docs"
+
 [permalinks]
   pages = ':filename/'
 
