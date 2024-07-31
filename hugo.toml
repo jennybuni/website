@@ -1,5 +1,5 @@
 baseURL = 'https://jennybuni.github.io/website/'
-title = 'Jennifer's Photography'
+title = "Jennifer's Photography"
 theme = "gallery"
 copyright = "© Jennifer Moss"
 defaultContentLanguage = "en"
