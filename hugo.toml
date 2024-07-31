@@ -10,13 +10,16 @@ timeZone = "Europe/London"
 timeout = "120s"
 publishDir = "docs"
 
+[author]
+  name = "Jennifer Moss"
+
 
 [outputs]
   home = ["HTML", "RSS"]
   page = ["HTML"]
   section = ["HTML"]
 
-  [imaging]
+[imaging]
   quality = 75
   resampleFilter = "CatmullRom"
   [imaging.exif]
@@ -24,22 +27,32 @@ publishDir = "docs"
     disableLatLong = true
     includeFields = "ImageDescription|Orientation"
 
-[params]
-  defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
-  [params.author]
-    email = "user@example.com"
-    name = "Your Name"
-  [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.112.0"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/watching/hugo_stats.json"
+
+[build]
+  writeStats = true
+  [[build.cachebusters]]
+    source = "assets/watching/hugo_stats\\.json"
+    target = "styles\\.css"
+  [[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(js)"
+    target = "js"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(.*)$"
+    target = "$1"
+
 
 [menu]
   [[menu.footer]]
