@@ -1,0 +1,46 @@
+baseURL = 'https://example.org/'
+title = 'My Photos'
+theme = "gallery"
+copyright = "© Jennifer Moss"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
+languageCode = "en"
+timeZone = "Europe/London"
+timeout = "120s"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+  [imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[params]
+  defaultTheme = "dark"
+  description = "Example site for hugo-theme-gallery"
+  title = "My Gallery"
+  [params.author]
+    email = "user@example.com"
+    name = "Your Name"
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+    #website = "https://example.com"
+    #mastodon = "https://example.com"
+    #pixelfed = "https://example.com"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    weight = 3
