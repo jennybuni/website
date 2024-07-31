@@ -6,7 +6,8 @@ menu:
   main:
     weight: 90
 ---
-Hi Im Jennifer, I live in the lakes and take photos for fun.
+***Hi Im Jennifer, I live in the lakes and take photos for fun.***
+
+I am tempted to start selling my photos.
 
 
-This is a demonstration site for the Hugo Gallery theme.
