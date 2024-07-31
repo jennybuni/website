@@ -1,12 +1,4 @@
-[submodule "themes/hugo-theme-bootstrap"]
-	path = themes/hugo-theme-bootstrap
-	url = https://github.com/razonyang/hugo-theme-bootstrap.git
-[submodule "themes/themes/gallery"]
-	path = themes/themes/gallery
-	url = https://github.com/nicokaiser/hugo-theme-gallery.git
-[submodule "themes/newsroom"]
-	path = themes/newsroom
-	url = https://github.com/onweru/newsroom.git
+
 [submodule "themes/gallery"]
 	path = themes/gallery
 	url = https://github.com/nicokaiser/hugo-theme-gallery.git
