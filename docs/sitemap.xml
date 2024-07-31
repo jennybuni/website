@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jennybuni.github.io/website/about/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jennybuni.github.io/website/pages/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jennybuni.github.io/website/</loc>
-    <lastmod>2019-08-25T00:52:59+03:00</lastmod>
+    <lastmod>2024-07-31T00:52:59+03:00</lastmod>
   </url><url>
     <loc>https://jennybuni.github.io/website/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
@@ -19,12 +25,6 @@
   </url><url>
     <loc>https://jennybuni.github.io/website/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jennybuni.github.io/website/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jennybuni.github.io/website/pages/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jennybuni.github.io/website/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>

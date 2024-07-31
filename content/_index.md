@@ -1,5 +1,5 @@
 +++
-title = "Newsroom"
-date = 2019-08-25T00:52:59+03:00
+title = "Photography"
+date = 2024-07-31T00:52:59+03:00
 image = "/images/street.jpg"
 +++
