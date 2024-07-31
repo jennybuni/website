@@ -8,6 +8,8 @@ enableRobotsTXT = true
 languageCode = "en"
 timeZone = "Europe/London"
 timeout = "120s"
+publishDir = "docs"
+
 
 [outputs]
   home = ["HTML", "RSS"]
