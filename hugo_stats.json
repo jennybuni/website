@@ -1,0 +1,47 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "button",
+      "div",
+      "footer",
+      "h1",
+      "head",
+      "header",
+      "hgroup",
+      "html",
+      "li",
+      "link",
+      "main",
+      "menu",
+      "meta",
+      "p",
+      "path",
+      "script",
+      "section",
+      "span",
+      "svg",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "btn",
+      "btn-square",
+      "dark",
+      "galleries",
+      "gallery",
+      "group",
+      "group-aria-expanded:block",
+      "group-aria-expanded:hidden",
+      "hidden",
+      "light",
+      "prose"
+    ],
+    "ids": [
+      "gallery",
+      "menu",
+      "menu-toggle"
+    ]
+  }
+}
